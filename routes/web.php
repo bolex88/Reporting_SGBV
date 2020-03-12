@@ -25,8 +25,6 @@ Route::get('/organisational', 'AbusesController@ShowOrganisationalAbuse')->name(
 Route::get('/neglect', 'AbusesController@ShowNeglectAbuse')->name('neglects.add');
 Route::post('/add', 'AbusesController@AddAbuses')->name('abuses.save');
 Route::get('/reports', 'AbusesController@showReports')->name('reports');
-//Route::get('/abuses','AbusesController@showAbuses')->name('abuses.add');
-//Route::get('/reports/details', 'ReportController@showDetails')->name('reports.details');
 Route::get('/add-referrer', 'PoliceController@showMedicalReferrerForm')->name('referrer.add');
 Route::post('/referrer', 'PoliceController@addReferrer')->name('referrer.save');
 Route::get('/referrer/edit/{id}', 'PoliceController@EditReferrer')->name('referrer.edit');
@@ -36,3 +34,5 @@ Route::get('/add-interview', 'PoliceController@showInterviewForm')->name('interv
 Route::post('/interview', 'PoliceController@addInterview')->name('interview.save');
 Route::get('/interview-reports', 'PoliceController@showInterview')->name('interview.reports');
 
+//Route::get('/abuses','AbusesController@showAbuses')->name('abuses.add');
+//Route::get('/reports/details', 'ReportController@showDetails')->name('reports.details');

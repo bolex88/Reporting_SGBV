@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale = 1">
-    <title>Reporting GBV Mockup</title>
+    <title>Reporting SGBV Mockup</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/fontawesome-all.js"></script>
@@ -13,7 +13,7 @@
      <!-- NAVBAR  -->
      <nav class="navbar navbar-expand-lg navbar-light bg-primary py-2">
         <div class="container">
-                <a class="navbar-brand text-white" href="/">Reporting GBV Cases</a>
+                <a class="navbar-brand text-white" href="/">Reporting SGBV Cases</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
